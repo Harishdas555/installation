@@ -32,3 +32,6 @@ root@dpplus-deployment-1:/# exit
 root@dpplus-deployment-1:/#
 
 
+# To Login to the VM instance
+sudo ssh -i /root/.ssh/id.rsa_fr -l adminuser 10.228.5.7
+sudo ssh -i /root/.ssh/id.rsa_fr -l adminuser 10.228.5.10
